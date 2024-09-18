@@ -1,6 +1,7 @@
 This python script prints ARM extension for specific cpu features found in /proc/cpuinfo
 
 Example output:
+<pre>
 $ ./aarch64_cpu_info.py 
 Detected CPU Features:
 ------------------------
@@ -14,3 +15,4 @@ ARMv8.2: dcpop, asimdhp, fphp, asimddp
 ARMv8.3: lrcpc
 
 No unknown extensions found.
+</pre>
